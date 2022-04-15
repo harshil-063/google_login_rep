@@ -4,5 +4,5 @@ from  allauth.account.views import LogoutView
 urlpatterns = [
     path('', views.signin),
     path('profile/',views.profile),
-    
+    path('search/',views.search, name='search'),
 ]

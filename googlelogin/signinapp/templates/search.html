@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
+
 {% load static %}
-{% block title %}dashboard{% endblock %}
+{% block title %}search{% endblock %}
 {% block content %}
         <div class="mt-5">
           {% if blog %}
-            <h4 class="text-center alert alert-info">Table data</h4>
+            <h4 class="text-center alert alert-info">searched data</h4>
             <table class="table table-hover" >
                 <thead>
                     <tr>
@@ -22,9 +23,43 @@
               </tbody>
           </table>
           {% else %}
+                                                                                                      
             {% include 'card.html' %}
             
+                                        
+
           {% endif %}
         </div>
 
+        </div>
+
+       
 {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
